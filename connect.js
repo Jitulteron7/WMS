@@ -15,6 +15,7 @@ const connectDB=()=>{
             if(err)console.log(err);
             else console.log("Mongo Database Connected");
         })
+        
 }
 
 module.exports=connectDB;
